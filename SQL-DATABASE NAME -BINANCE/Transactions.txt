@@ -1,0 +1,23 @@
+USE [BINANCE]
+GO
+
+/****** Object:  Table [dbo].[Transactions]    Script Date: 1/5/2023 9:07:52 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Transactions](
+	[TransactionID] [int] IDENTITY(1,1) NOT NULL,
+	[Sender] [nvarchar](150) NOT NULL,
+	[Recipient] [nvarchar](150) NOT NULL,
+	[value] [int] NOT NULL,
+	[Type] [nvarchar](50) NOT NULL,
+	[createdDate] [datetime] NOT NULL
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Transactions] ADD  DEFAULT (getdate()) FOR [createdDate]
+GO
+

@@ -1,0 +1,87 @@
+
+/* Container holding the image and the text */
+.container-card {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    font-family: "Copperplate", Fantasy;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 65px;
+    right: 200px;
+    font-family: "Copperplate", Fantasy;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Copperplate", Fantasy;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal-content-card {
+    border-radius: 50%;
+}
+
+.card-numbers-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-right: 75px;
+    padding-left: 30px;
+}
+
+.card-cvc-exp-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 150px;
+    padding-inline: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.card-name-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+}

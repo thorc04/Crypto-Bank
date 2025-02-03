@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Binance.com</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Thor_Bank.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav style="background-color:#061121;" class="navbar navbar-expand-sm navbar-toggleable-sm  box-shadow mb-3">
+            <div class="container">
+                <img class="logo" href="/index/" src="/images/binance.png" height="40" width="200" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+
+
+                @if (Context.Session.Get("ID") != null)
+                {
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="/Index">Home</a></li>
+                                        <li><a class="dropdown-item" href="/binancecard">Binance Card</a></li>
+                                        <li><a class="dropdown-item" href="/Spot">Spot</a></li>
+                                        <li><a class="dropdown-item" href="#">Info</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-page="/user/Dash">Dashboard</a>
+                            </li>
+                            <li>
+                                <a class="nav-link text-white" asp-area="" asp-page="/User/Logout">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                }
+                else
+                {
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item" href="/Index">Home</a></li>
+                                        <li><a class="dropdown-item" href="/binancecard">Credit Card</a></li>
+                                        <li><a class="dropdown-item" href="/Spot">Spot</a></li>
+                                        <li><a class="dropdown-item" href="#">Info</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-page="/Login">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                }
+
+                @if (Context.Session.GetString("Role") == "Admin")
+                {
+
+                    <a class="nav-link text-white" asp-area="" asp-page="/Admin/Index">Admin</a>
+
+                }
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="text-center">
+            <h6>Binance &copy 2022</h6>
+        </div>
+
+        <div class="container">
+            Trading cryptocurrencies involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Binance based on the legal requirements in your country of residence. Investments in cryptoassets are not covered by the Financial Ombudsman Service or subject to protection under the Financial Services Compensation Scheme. The information on this site is not directed at residents of the United States, Canada, Singapore, Japan, Korea, Australia, and New Zealand or any particular country or jurisdiction where such distribution or use would be contrary to local law or regulation.
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

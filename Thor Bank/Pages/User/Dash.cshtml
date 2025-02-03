@@ -1,0 +1,422 @@
+﻿@page
+@model Thor_Bank.Pages.User.DashModel
+@using Thor_Bank.Entity
+@{
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Dashtext.css">
+    <script src="/js/Dash.js"></script>
+
+</head>
+
+<div class="my-app">
+    <header class="my-header">
+        <nav class="my-navbar navbar navbar-expand-lg navbar-light bg-white">
+            <a class="my-navbar__logo navbar-brand" href="#">
+                <img class="my-navbar__logo-icon" src="./images/icon-money.svg" alt>
+                <span class="my-navbar__logo-text">Dashboard</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Begin content header -->
+        <section class="my-app__header">
+            <div class="container">
+                <div class="my-app__header-inner">
+                    <div class="my-app__header-text media">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: #9ea0a5;
+                                    }
+
+                                    .b {
+                                        clip-path: url(#a);
+                                    }</style><clipPath id="a"><circle class="a" cx="40" cy="40" r="40" transform="translate(166 101)" /></clipPath>
+                            </defs>
+                            <g class="b" transform="translate(-166 -101)"><image width="82" height="82" transform="translate(165 100)" href="/images/Binance_Logo.png" /></g>
+                        </svg>
+                        <div class="media-body">
+                            <h1 class="my-app__header-title">Hello, @Model.AccountInfo.Username</h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End content header -->
+        <!-- Begin content body -->
+        <section class="my-app__body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <!-- Begin Payment Balance card -->
+                        <div class="my-card card">
+                            <div class="my-card__header card-header">
+                                <div class="my-card__header-title">
+                                    <div class="my-text-overline">Balance</div>
+                                    <h3 class="my-text-headline">@Model.Valuetotal$  </h3>
+                                </div>
+                            </div>
+
+                            <div class="my-card__body card-body">
+                                <div class="my-text-overline">Available Currencies</div>
+                                <dl class="my-list my-list--definitions my-dl">
+
+                                    @foreach (Wallet crypto in Model.Walletvalue)
+                                    {
+                                        <dt>Wallet name: @crypto.Walletname</dt>
+                                        <dt>@crypto.Type</dt>
+                                        <dd>@crypto.Value$</dd>
+                                        <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-@crypto.Walletid">Show Address</button>
+                                        <div class="modal fade" id="modal-@crypto.Walletid" tabindex="-1" aria-labelledby="addressvaluecryptoLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="buycryptoLabel">Your Address</h1>
+                                                    </div>
+
+                                                    <div class="modal-body">
+                                                        <h5>@crypto.Value$</h5>
+                                                        <h6>Address: @crypto.Address </h6>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    }
+                                </dl>
+                                <hr class="my-divider">
+                                <ul class="my-list my-list--simple list-inline mb-0">
+                                    <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buycrypto" data-bs-whatever="">Buy Crypto</button>
+                                    <div class="modal fade" id="buycrypto" tabindex="-1" aria-labelledby="buycryptoLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="buycryptoLabel">Buy Crypto</h1>
+                                                </div>
+                                                <form method="post" asp-page-handler="buy">
+                                                    <div class="modal-body">
+                                                        <div class="mb-3"><input id="cryptobuy" class="form-control" type="text" name="cryptobuy" placeholder="ENTER in USD" /></div>
+                                                        <label for="cryptobuy" asp-for="Walletinfo.cryptobuy">  ‎</label>
+
+                                                        <div>
+                                                            <select class="form-select" id="Walletname" name="Walletname">
+                                                                @foreach (Wallet crypto in Model.Walletvalue)
+                                                                {
+                                                                    <option value="@crypto.Walletname">@crypto.Walletname - @crypto.Type</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                        <label for="Walletname" asp-for="Walletinfo.Walletname">  ‎</label>
+
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-primary">Buy</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sendcrypto" data-bs-whatever="">Send Crypto</button>
+                                    <div class="modal fade" id="sendcrypto" tabindex="-1" aria-labelledby="sendcryptoLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="buycryptoLabel">Send Crypto</h1>
+                                                </div>
+                                                <form method="post" asp-page-handler="send">
+                                                    <div class="modal-body">
+                                                        <div class="mb-3"><input id="sendcrypto" class="form-control" type="text" name="sendcrypto" placeholder="ENTER in USD" /></div>
+                                                        <label for="sendcrypto" asp-for="Walletinfo.sendcrypto">  ‎</label>
+
+                                                        <div class="mb-3"><input id="walletsend" class="form-control" type="text" name="walletsend" placeholder="Wallet Address" /></div>
+                                                        <label for="walletsend" asp-for="Walletinfo.walletsend">  ‎</label>
+
+                                                        <div>
+                                                            <select class="form-select" id="Address" name="Address">
+                                                                @foreach (Wallet crypto in Model.Walletvalue)
+                                                                {
+                                                                    <option value="@crypto.Address">@crypto.Walletname - @crypto.Type</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                        <label for="Address" asp-for="Walletinfo.Address">  ‎</label>
+                                                        <span>@Model.StatusMessage</span>
+
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-primary">Send</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sellcrypto" data-bs-whatever="">Withdraw funds</button>
+                                    <div class="modal fade" id="sellcrypto" tabindex="-1" aria-labelledby="sellcryptoLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                </div>
+                                                <form method="post" asp-page-handler="sell">
+                                                    <div class="modal-body">
+                                                        <div class="mb-3"><input id="sellcrypto" class="form-control" type="text" name="sellcrypto" placeholder="ENTER in USD" /></div>
+                                                        <label for="sellcrypto" asp-for="Walletinfo.sellcrypto">  ‎</label>
+
+                                                        <div>
+                                                            <select class="form-select" id="Walletname" name="Walletname">
+                                                                @foreach (Wallet crypto in Model.Walletvalue)
+                                                                {
+                                                                    <option value="@crypto.Walletname">@crypto.Walletname - @crypto.Type</option>
+                                                                }
+                                                            </select>
+                                                        </div>
+                                                        <label for="Walletname" asp-for="Walletinfo.Walletname">  ‎</label>
+
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-primary">Withdraw</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Payment Balance card -->
+                        <!-- Begin Bank Accounts card -->
+                        <div class="my-card card">
+                            <div class="my-card__body card-body">
+                                <div class="my-text-overline fw-bold">Account Info</div>
+                                <ul class="my-list my-list--simple list-inline mb-0">
+                                    <li class="my-list-item">
+                                        <span class="list__icon">
+                                            <img src="" alt>
+                                        </span>
+                                        <span>@Model.AccountInfo.Email</span>
+                                    </li>
+                                    <li class="my-list-item">
+                                        <span class="my-list-item__graphic list__icon">
+                                            <img src="" alt>
+                                        </span>
+                                        <span class="my-list-item__text">@Model.AccountInfo.Phone</span>
+                                    </li>
+                                    <li class="my-list-item">
+                                        <span class="my-list-item__graphic list__icon">
+                                            <img src="" alt>
+                                        </span>
+                                        <span class="my-list-item__text">@Model.AccountInfo.City, @Model.AccountInfo.State</span>
+                                    </li>
+                                    <div class="button-group">
+                                        <ul class="my-list-inline list-inline mb-0">
+                                            <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-outline-info btn-circle btn-lg btn-circle" data-bs-toggle="modal" data-bs-target="#password" data-bs-whatever=""><i class="fa fa-key"></i></button>
+                                            <div class="modal fade" id="password" tabindex="-1" aria-labelledby="passwordLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h1 class="modal-title fs-5" id="passwordLabel">Change Password</h1>
+                                                        </div>
+                                                        <form id="passwordform" method="post" asp-page-handler="edit" asp-route-id="@Model.AccountInfo.ID">
+                                                            <div class="modal-body">
+
+                                                                <div class="mb-3"><input id="OldPassword" class="form-control" type="password" name="OldPassword" placeholder="OldPassword" /></div>
+                                                                <label for="OldPassword" asp-for="AccountInfo.OldPassword">  ‎</label>
+
+                                                                <div class="mb-3"><input id="NewPassword" class="form-control" type="password" name="NewPassword" placeholder="NewPassword" /></div>
+                                                                <label for="NewPassword" asp-for="AccountInfo.NewPassword">  ‎</label>
+
+                                                                <div class="mb-3"><input id="ConfirmPassword" class="form-control" type="password" name="ConfirmPassword" placeholder="ConfirmPassword" /></div>
+                                                                <label for="ConfirmPassword" asp-for="AccountInfo.ConfirmPassword">  ‎</label>
+
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                    <button type="submit" form="passwordform" class="btn btn-primary">Change</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                </ul>
+
+                                <hr class="my-divider">
+                                <ul class="my-list-inline list-inline mb-0">
+                                    <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#add" data-bs-whatever="">Create Wallet</button>
+                                    <div class="modal fade" id="add" tabindex="-1" aria-labelledby="addLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="addLabel">Create Wallet</h1>
+                                                </div>
+                                                <form method="post">
+                                                    <div class="modal-body">
+                                                        <div class="mb-3"><input id="Walletname" class="form-control" type="text" name="Walletname" placeholder="Wallet name" /></div>
+                                                        <label for="Walletname" asp-for="Walletinfo.Walletname">  ‎</label>
+
+                                                        <div>
+                                                            <select class="form-select" id="Type" name="Type">
+                                                                <option value="BTC">BTC</option>
+                                                                <option value="ETH">ETH</option>
+                                                                <option value="USDT">USDT</option>
+                                                            </select>
+                                                        </div>
+                                                        <label for="Type" asp-for="Walletinfo.Type">  ‎</label>
+
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="submit" class="btn btn-primary">Create Wallet</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button style="background-color:#f3ba2f; color:#061121" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#showcard">Show Card</button>
+                                    <div class="modal fade" id="showcard" tabindex="-1" aria-labelledby="cardModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content modal-content-card">
+                                                <div class="modal-card text-light"
+                                                     style="background-image: url(/images/Binance-card.png); background-size: 100% 100%; background-position: center; height:312px;">
+                                                    <div id="card-numbers" class="card-numbers-row">
+                                                        <p>@Model.Virtualcardinfo.Cardnumber</p>
+                                                    </div>
+                                                    <div class="card-cvc-exp-row">
+                                                        <p id="cardCVC">CVV @Model.Virtualcardinfo.CCV</p>
+                                                        <p id="cardEXP">EXP @Model.Virtualcardinfo.EXP</p>
+                                                    </div>
+                                                    <div class="card-name-row">
+                                                        <p>@Model.Virtualcardinfo.Nameoncard</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </ul>
+
+                                <hr class="my-divider">
+                                <ul class="my-list-inline list-inline mb-0">
+                                    <button style="color:#061121" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#remove" data-bs-whatever="">Manage Wallet</button>
+                                    <div class="modal fade" id="remove" tabindex="-1" aria-labelledby="removeLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="removeLabel">Delete Wallet</h1>
+                                                </div>
+                                                <form method="post" asp-page-handler="delete">
+                                                    <div>
+                                                        <select class="form-select" asp-for="Walletinfo.Address">
+                                                            @foreach (Wallet crypto in Model.Walletvalue)
+                                                            {
+                                                                <option value="@crypto.Address">@crypto.Walletname - @crypto.Type</option>
+                                                            }
+
+                                                        </select>
+                                                    </div>
+                                                    <label for="Type">  ‎</label>
+
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                        <button type="submit" class="btn btn-danger">Delete Wallet</button>
+                                                    </div>
+
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!-- End Bank Accounts card -->
+                    </div>
+
+                    <div class="col-8">
+                        <div class="main-card mb-3 card">
+                            <div class="card-header">
+                                All Transactions
+                                <div class="btn-actions-pane-right">
+                                    <div role="group" class="btn-group-sm btn-group">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">Sender</th>
+                                            <th class="text-center">Receiver</th>
+                                            <th class="text-center">Value</th>
+                                            <th class="text-center">Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var crypto in Model.Transactioninfo)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    <div class="fw-normal">@crypto.Sender</div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="fw-normal">@crypto.Reciptient</div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="fw-normal">@crypto.value$</div>
+                                                </td>
+                                                <td class="text-center">
+                                                    <div class="fw-normal">@crypto.createdDate</div>
+                                                </td>
+                                            </tr>
+
+                                            {
+                                                Console.WriteLine(crypto.createdDate);
+                                            }
+
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>

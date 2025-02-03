@@ -1,0 +1,34 @@
+USE [BINANCE]
+GO
+
+/****** Object:  Table [dbo].[USERS]    Script Date: 1/5/2023 9:08:11 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[USERS](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Username] [nvarchar](18) NOT NULL,
+	[Password] [nvarchar](64) NOT NULL,
+	[Email] [nvarchar](30) NOT NULL,
+	[Firstname] [nvarchar](30) NOT NULL,
+	[Lastname] [nvarchar](30) NOT NULL,
+	[Address] [nvarchar](40) NOT NULL,
+	[City] [nvarchar](40) NOT NULL,
+	[Zipcode] [nvarchar](40) NOT NULL,
+	[State] [nvarchar](40) NOT NULL,
+	[Country] [nvarchar](40) NOT NULL,
+	[Phone] [nvarchar](40) NOT NULL,
+	[Role] [nvarchar](40) NOT NULL,
+	[createdDate] [datetime] NULL
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[USERS] ADD  DEFAULT ('Client') FOR [Role]
+GO
+
+ALTER TABLE [dbo].[USERS] ADD  DEFAULT (getdate()) FOR [createdDate]
+GO
+

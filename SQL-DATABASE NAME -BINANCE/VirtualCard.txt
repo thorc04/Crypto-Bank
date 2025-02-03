@@ -1,0 +1,23 @@
+USE [BINANCE]
+GO
+
+/****** Object:  Table [dbo].[VirtualCard]    Script Date: 1/5/2023 9:08:37 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[VirtualCard](
+	[CardOwnerID] [int] NOT NULL,
+	[Cardnumber] [nvarchar](20) NOT NULL,
+	[EXP] [nvarchar](150) NOT NULL,
+	[Nameoncard] [nvarchar](150) NOT NULL,
+	[CCV] [int] NOT NULL,
+	[createdDate] [datetime] NOT NULL
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[VirtualCard] ADD  DEFAULT (getdate()) FOR [createdDate]
+GO
+

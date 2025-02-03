@@ -1,0 +1,81 @@
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\appsettings.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.staticwebassets.runtime.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.exe
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.deps.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.runtimeconfig.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.pdb
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.csproj.AssemblyReference.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.AssemblyInfoInputs.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.AssemblyInfo.cs
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.csproj.CoreCompileInputs.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.RazorAssemblyInfo.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.RazorAssemblyInfo.cs
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.Thor Bank.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.build.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\scopedcss\bundle\Thor Bank.styles.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\scopedcss\projectbundle\Thor Bank.bundle.scp.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\refint\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.pdb
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.genruntimeconfig.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor Bank\obj\Debug\net6.0\ref\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\appsettings.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.staticwebassets.runtime.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.exe
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.deps.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.runtimeconfig.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Thor Bank.pdb
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.csproj.AssemblyReference.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.AssemblyInfoInputs.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.AssemblyInfo.cs
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.csproj.CoreCompileInputs.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.RazorAssemblyInfo.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.RazorAssemblyInfo.cs
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.Thor Bank.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.build.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Thor Bank.props
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\scopedcss\bundle\Thor Bank.styles.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\scopedcss\projectbundle\Thor Bank.bundle.scp.css
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\refint\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.pdb
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.genruntimeconfig.cache
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\ref\Thor Bank.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\obj\Debug\net6.0\Thor Bank.csproj.CopyComplete
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\NBitcoin.dll
+C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\bin\Debug\net6.0\Newtonsoft.Json.dll

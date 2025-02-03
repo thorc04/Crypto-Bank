@@ -1,0 +1,23 @@
+USE [BINANCE]
+GO
+
+/****** Object:  Table [dbo].[WALLETS]    Script Date: 1/5/2023 9:09:03 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[WALLETS](
+	[Ownerid] [int] NOT NULL,
+	[Walletid] [int] IDENTITY(1,1) NOT NULL,
+	[Walletname] [nvarchar](50) NOT NULL,
+	[Address] [nvarchar](150) NOT NULL,
+	[Type] [nvarchar](18) NOT NULL,
+	[Value] [int] NOT NULL
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[WALLETS] ADD  DEFAULT ('0') FOR [Value]
+GO
+

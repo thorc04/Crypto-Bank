@@ -1,0 +1,72 @@
+﻿@page
+@model Thor_Bank.Pages.admin.RegisterModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/Register.css">
+</head>
+
+
+
+@* REGISTER *@
+<form method="post">
+    <div class="container">
+
+        <h1>New Client</h1>
+        <p>Client Data</p>
+        <hr>
+
+        <label for="Username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+        <label for="Username" asp-for="RegisterInfo.Username">  ‎</label>
+
+
+        <label for="psw"><b>Password</b></label>
+        <input type="Password" placeholder="Enter Password" name="Password" id="Password" required>
+        <label for="Passwords" asp-for="RegisterInfo.Password">  ‎</label>
+
+        <label for="Email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" id="Email" required>
+        <label for="Email" asp-for="RegisterInfo.Email">  ‎</label>
+
+        <label for="Firstname"><b>Firstname</b></label>
+        <input type="text" placeholder="Enter Firstname" name="Firstname" id="Firstname" required>
+        <label for="Firstname" asp-for="RegisterInfo.Firstname">  ‎</label>
+
+        <label for="Lastname"><b>Lastname</b></label>
+        <input type="text" placeholder="Enter Lastname" name="Lastname" id="Lastname" required>
+        <label for="Lastname" asp-for="RegisterInfo.Lastname">  ‎</label>
+
+        <label for="Address"><b>Address</b></label>
+        <input type="text" placeholder="Enter Address" name="Address" id="Address" required>
+        <label for="Address" asp-for="RegisterInfo.Address">  ‎</label>
+
+        <label for="City"><b>City</b></label>
+        <input type="text" placeholder="Enter City" name="City" id="City" required>
+        <label for="City" asp-for="RegisterInfo.City">  ‎</label>
+
+        <label for="Zipcode"><b>Zipcode</b></label>
+        <input type="text" placeholder="Enter Zipcode" name="Zipcode" id="Zipcode" required>
+        <label for="Zipcode" asp-for="RegisterInfo.Zipcode">  ‎</label>
+
+        <label for="State"><b>State</b></label>
+        <input type="text" placeholder="Enter State" name="State" id="State" required>
+        <label for="State" asp-for="RegisterInfo.State">  ‎</label>
+
+        <label for="Country"><b>Country</b></label>
+        <input type="text" placeholder="Enter Country" name="Country" id="Country" required>
+        <label for="Country" asp-for="RegisterInfo.Country">  ‎</label>
+
+        <label for="Phone"><b>Phone</b></label>
+        <input type="text" placeholder="Enter Phone" name="Phone" id="Phone" required>
+        <label for="Phone" asp-for="RegisterInfo.Phone">  ‎</label>
+
+
+        <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+
+    
+</form>

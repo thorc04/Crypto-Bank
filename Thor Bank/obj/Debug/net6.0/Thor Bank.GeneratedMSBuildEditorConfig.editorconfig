@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Thor_Bank
+build_property.RootNamespace = Thor_Bank
+build_property.ProjectDir = C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\thor9636\source\repos\Thor Bank\Thor-Bank\Thor Bank
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/admin/Clients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQ2xpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/admin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Binancecard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluYW5jZWNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Spot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BvdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/User/Dash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/User/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/thor9636/source/repos/Thor Bank/Thor-Bank/Thor Bank/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7w3ilgyx98

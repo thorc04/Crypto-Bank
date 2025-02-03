@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Thor Bank.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Thor Bank.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\404.css",
+      "PackagePath": "staticwebassets\\css\\404.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Clients.css",
+      "PackagePath": "staticwebassets\\css\\Clients.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Dash.css",
+      "PackagePath": "staticwebassets\\css\\Dash.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Dashtext.css",
+      "PackagePath": "staticwebassets\\css\\Dashtext.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\css\\spot.css",
+      "PackagePath": "staticwebassets\\css\\spot.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\Binance-Logo.wine.png",
+      "PackagePath": "staticwebassets\\images\\Binance-Logo.wine.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\Binance-card.png",
+      "PackagePath": "staticwebassets\\images\\Binance-card.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\Binance-cardinfo.png",
+      "PackagePath": "staticwebassets\\images\\Binance-cardinfo.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\Binance_Logo.png",
+      "PackagePath": "staticwebassets\\images\\Binance_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\FTX.png",
+      "PackagePath": "staticwebassets\\images\\FTX.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\FTXwhite.png",
+      "PackagePath": "staticwebassets\\images\\FTXwhite.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\ThorBank.png",
+      "PackagePath": "staticwebassets\\images\\ThorBank.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\binance.png",
+      "PackagePath": "staticwebassets\\images\\binance.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\binancephone.png",
+      "PackagePath": "staticwebassets\\images\\binancephone.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\cashback.png",
+      "PackagePath": "staticwebassets\\images\\cashback.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\ftx-features-1024x852.jpg",
+      "PackagePath": "staticwebassets\\images\\ftx-features-1024x852.jpg"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\ftxphone.png",
+      "PackagePath": "staticwebassets\\images\\ftxphone.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\p.png",
+      "PackagePath": "staticwebassets\\images\\p.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\phone-binance.png",
+      "PackagePath": "staticwebassets\\images\\phone-binance.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\images\\xxx.png",
+      "PackagePath": "staticwebassets\\images\\xxx.png"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\js\\404.js",
+      "PackagePath": "staticwebassets\\js\\404.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\js\\Dash.js",
+      "PackagePath": "staticwebassets\\js\\Dash.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thor9636\\source\\repos\\Thor Bank\\Thor-Bank\\Thor Bank\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Thor Bank.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Thor Bank.props",
+      "PackagePath": "build\\Thor Bank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Thor Bank.props",
+      "PackagePath": "buildMultiTargeting\\Thor Bank.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Thor Bank.props",
+      "PackagePath": "buildTransitive\\Thor Bank.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
